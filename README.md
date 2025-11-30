@@ -11,7 +11,8 @@ The repository includes different modules introduced in the corresponding paper.
 The collector module includes both `server` and `client` codes of the data collection process. Details of the collector module can be found in a dedicated [README](collector/README.md) file included in the directory.
 
 ### Data
-We have provided sample traces from each of the experimented agent types. Additionally, `data` directory includes the required codes for loading the data to be used in the analysis.
+We have provided sample traces from each of the experimented agent types. `data` directory includes the required codes for loading the data to be used in the analysis and `traces` directory includes first 10,000 collected events for each user of different labels. 
 
 ### Learning Framework
 The utilized `LSTM` and `1D-CNN` model architectures, as well as the required codes for training and test phases are available in the `ml_framework` directory. 
+
